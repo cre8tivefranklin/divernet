@@ -1,0 +1,95 @@
+
+.nav{
+    text-align: center;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    background-image: linear-gradient(to right, #640b0b, #da2121);
+    box-shadow: 0px 10px 10px #fb0394;
+    width: 100%;
+}
+.nav p{
+    padding: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Monoton';
+}
+.nav h1{
+    padding: 10px;
+    cursor: pointer;
+}
+.nav p:hover{
+    
+}
+.contact{
+    color: #964c77;
+}
+.contact:hover{
+    color: #fb0394;
+    text-shadow: 3px 3px 5px #0008FF;
+}
+.m-contact{
+    display:none;
+}
+
+.nav-drop-content{
+    display: none;
+    color:  #964c77;
+    background-image: linear-gradient(to right, #640b0b, #921111);
+}
+.nav-drop-content p:hover{
+    color: #0008FF;
+    text-shadow: 3px 3px 5px #fb0394;
+    font-size: 30px;
+}
+.nav-drop:hover .nav-drop-content{
+    display: block;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 250px;
+    position: static;
+    bottom: 0px;
+    background-image: linear-gradient(to right, #640b0b, #da2121);
+    box-shadow: 10px 0px 10px #fb0394;
+    width: 100%;
+}
+.footer p{
+    display: inline;
+    padding: 25px;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 680px) {
+    body {
+    }
+        .contact{
+            display: none;
+        }
+        .m-contact{
+            display: block;
+            color: #964c77;
+        }
+        .m-contact:hover{
+            color: #fb0394;
+            text-shadow: 3px 3px 5px #0008FF;
+        }
+        .nav-drop-content p:hover{
+            color: #0008FF;
+            text-shadow: 3px 3px 5px #fb0394;
+            font-size: 25px;
+        }
+    }
+  }

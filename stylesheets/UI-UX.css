@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/* Monoton */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Press Start 2P */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap');
+/* Big Shoulders Inline Text */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+/* Bungee Inline  */
+
+body{
+    background-image: linear-gradient(to right, #88064E, #f7d6e8);
+}
+
+.menu{
+    font-family: 'Bungee Inline', cursive;
+    color: #0008FF;
+    text-shadow: 3px 3px 5px #fb0394;
+}
+.menu:hover{
+    background-image: linear-gradient(to right, #640b0b, #921111);
+}
+a:link { 
+    text-decoration: none; 
+} 
+.emptyspace{
+    height: 100px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diver-Net</title>
+  </head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/footer-menu.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/UI-UX.css" media="screen"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #964c77;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #0008FF;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-image: linear-gradient(to right, #8081a556, #8081a515);
+      padding: 20px;
+    }
+    </style>
+
+
+
+  <body>
+
+
+    <div class='nav'>
+        <!-- inline display --- just the menu and contact-->
+
+        <div class='nav-drop'>
+          <a href='index.html'><h1 class='menu'>Menu</h1></a>
+          <!-- fixed postion -->
+          <!-- nav -->
+        <!-- menu tag -->
+        <!-- dropdown items _ they display when hovering over the menu tag
+            blog
+            art
+        -->   
+          <div class='nav-drop-content'>     
+            <p>Blog</p>
+            <p>Art</p>
+            <a href='contact.html'><p class='m-contact'>Contact</p></a>
+          </div>
+        </div>
+
+        
+
+        
+        <a href='contact.html'><p class='contact'>Contact</p></a>
+        <!-- contact -->
+      </div>
+
+      <div class='emptyspace'></div>
+      <div class='emptyspace'></div>
+
+
+      <div class="container col-md-6">
+        <form action="scripts\contact.php" method="GET">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Feedback or Request.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+
+
+
+
+      <div class='footer col'>
+        <!-- fixed position -->
+        <!-- footer 
+          social
+          contact info
+      -->
+      <div class='fa facebook'></div>
+      <div class='ig instagram'></div>
+    </div>
+
+
+  </body>
